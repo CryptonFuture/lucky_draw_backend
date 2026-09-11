@@ -1,0 +1,28 @@
+.premium-input {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem 0.875rem;
+  background: #fff;
+  color: #1e293b;
+  font-size: 0.875rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.premium-input::placeholder {
+  color: #94a3b8;
+}
+
+.premium-input:hover {
+  border-color: #cbd5e1;
+}
+
+.premium-input:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.12);
+}
+
+select.premium-input {
+  cursor: pointer;
+}
