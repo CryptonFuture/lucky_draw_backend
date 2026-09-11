@@ -275,7 +275,7 @@ exports.conductDraw = async (req, res) => {
 
     // Try Python service for secure random
     try {
-      const pythonUrl = process.env.PYTHON_SERVICE_URL || 'http://localhost:8000';
+      const pythonUrl = process.env.PYTHON_SERVICE_URL;
       const response = await axios.post(`${pythonUrl}/select-winners`, {
         total_entries: entries.length,
         num_winners: numWinners
