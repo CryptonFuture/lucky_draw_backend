@@ -3,6 +3,7 @@ node_modules/
 .env
 backend/.env
 frontend/dist/
+lucky_frontend/.env
 __pycache__/
 *.pyc
 .venv/
